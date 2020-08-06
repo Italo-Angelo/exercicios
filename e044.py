@@ -3,7 +3,7 @@ print('''FORMAS DE PAGAMENTO
 [1] Em dinheiro
 [2] à vista no cartão
 [3] 2x no cartão
-[4] 4x no cartão''')
+[4] 4x ou mais no cartão''')
 vista = preço-((10*preço)/100)
 viscar = preço-((5*preço)/100)
 cartao3 = preço+((20*preço)/100)

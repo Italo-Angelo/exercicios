@@ -1,5 +1,4 @@
 maior = menor = soma = cont = me = 0
-lista = []
 continuar = 'S'
 while continuar == 'S':
     quest = int(input('Digite um valor: '))

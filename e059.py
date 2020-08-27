@@ -20,7 +20,7 @@ while option != 5:
         print('\033[1;32mA soma entre {} e {} é {}\033[0;0m'.format(question, question1, question + question1))
     if option1 == 2:
         sleep(1)
-        print('\033[1;32mA multiplicar {} por {} você tem {}\033[0;0m'.format(question, question1, question * question1))
+        print('\033[1;32mAo multiplicar {} por {} você tem {}\033[0;0m'.format(question, question1, question * question1))
     if option1 == 3:
         sleep(1)
         print('\033[1;32mO maior número entre {} e {} é {}\033[0;0m'.format(question, question1, maior))
@@ -34,4 +34,4 @@ while option != 5:
     if option1 == 5:
         sleep(1)
         print(emoji.emojize('Tenha uma boa semana :thumbs_up:'))
-        break
+        break #para parar o cod
